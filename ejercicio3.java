@@ -10,6 +10,8 @@ public class ejercicio3 {
 		System.out.println("1. Área triángulo");
 		System.out.println("2. Área círculo");
 		System.out.println("3. Área del cono");
+		System.out.println("4. Área del cilindro");
+		System.out.println("5. Salir");
 		System.out.print("Seleccione una opción: ");
 
 
@@ -41,6 +43,9 @@ public class ejercicio3 {
 			System.out.println("Ingrese la altura del cilindro: ");
 			double alturaCilindro = sc.nextDouble();
 			resultado = 2 * Math.PI * radioCilindro * (radioCilindro + alturaCilindro);
+		break;
+		case 5:
+			
 		break;
 		default:
 		System.out.println("Opción no válida. Inténtelo de nuevo.");
