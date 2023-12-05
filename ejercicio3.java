@@ -35,7 +35,13 @@ public class ejercicio3 {
 			double alturaCono = sc.nextDouble();
 			resultado = Math.PI * radioCono * (radioCono + Math.sqrt(Math.pow(alturaCono, 2) + Math.pow(radioCono, 2)));
 		break;
-
+		case 4:
+			System.out.println("Ingrese el radio del cilindro: ");
+			double radioCilindro = sc.nextDouble();
+			System.out.println("Ingrese la altura del cilindro: ");
+			double alturaCilindro = sc.nextDouble();
+			resultado = 2 * Math.PI * radioCilindro * (radioCilindro + alturaCilindro);
+		break;
 		default:
 		System.out.println("Opción no válida. Inténtelo de nuevo.");
 		}
