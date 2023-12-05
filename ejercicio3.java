@@ -23,9 +23,10 @@ public class ejercicio3 {
 			double alturaTriangulo = sc.nextDouble();
 			resultado = 0.5 * baseTriangulo * alturaTriangulo;
 		break;
-		case 2:
-			
-	
+			case 2:
+			System.out.print("Ingrese el radio del círculo: ");
+			double radioCirculo = sc.nextDouble();
+			resultado = Math.PI * Math.pow(radioCirculo, 2);
 		break;
 		case 3:
 			
