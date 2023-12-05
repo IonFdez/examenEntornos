@@ -29,8 +29,11 @@ public class ejercicio3 {
 			resultado = Math.PI * Math.pow(radioCirculo, 2);
 		break;
 		case 3:
-			
-	
+			System.out.print("Ingrese el radio de la base del cono: ");
+			double radioCono = sc.nextDouble();
+			System.out.print("Ingrese la altura del cono: ");
+			double alturaCono = sc.nextDouble();
+			resultado = Math.PI * radioCono * (radioCono + Math.sqrt(Math.pow(alturaCono, 2) + Math.pow(radioCono, 2)));
 		break;
 
 		default:
